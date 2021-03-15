@@ -34,6 +34,7 @@ struct EmojiArtDocumentView: View {
                             }
                         )
                         // Add some comment for test commit
+                        // Add some comment for Test commit and push #2
                         .edgesIgnoringSafeArea([.horizontal, .bottom])
                         .onDrop(of: ["public.image","public.text"], isTargeted: nil){ providers, location in
                             // location is IOS geometry
