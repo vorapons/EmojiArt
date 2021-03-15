@@ -10,7 +10,8 @@ import SwiftUI
 class EmojiArtDocument : ObservableObject {
     // ObservableObject : things changed in model we will see em
     
-    static let palette : String = "🥨🥦🍐🥪🧈🥥"
+//    static let palette : String = "🥨🥦🍐🥪🧈🥥"
+    static let palette : String = "🥨🥦🍐🥪🧈🥥🍇🫓🥩"
     
     @Published private(set) public var backgroundImage : UIImage?
     

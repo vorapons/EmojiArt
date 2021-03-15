@@ -33,6 +33,7 @@ struct EmojiArtDocumentView: View {
                                 }
                             }
                         )
+                        // Add some comment for test commit
                         .edgesIgnoringSafeArea([.horizontal, .bottom])
                         .onDrop(of: ["public.image","public.text"], isTargeted: nil){ providers, location in
                             // location is IOS geometry
